@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+#tc{
+    padding: 50px;
+
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: red;
+    line-height: 1.5;
+
+}
+body{
+  height: 100vh;
+  background-color: #DEB6AB;
+
+}
+
+#tcValue{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 450px;
+  background-color: #fff;
+  font-size: 2rem;
+  padding: 70px 50px;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+
+  justify-content: space-between;
+  display: flex;
+
+}
+
+.celfar{
+  width: 45%;
+}
+input{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 8px;
+  padding: 0 10px;
+}
